@@ -1,7 +1,5 @@
 == README
 
-== README
-
 This is my first Ruby on Rails App. I am currently going through an online web development course offered through Career Foundry.
 
 I'll add more to this when I know what I'm doing!
