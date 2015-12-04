@@ -1,0 +1,12 @@
+<div class="container-fluid">
+	<div class="col-md-offset-4 col-md-4 new-product">
+		<h1>Editing Product</h1>
+
+		<%= render 'form' %>
+	</div>
+
+	<div class="col-md-offset-4 col-md-4">
+		<%= link_to 'Show', @product, :class => "btn btn-link"%> |
+		<%= link_to 'Back', products_path, :class => "btn btn-link" %>
+	</div>
+</div>
