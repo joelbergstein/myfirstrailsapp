@@ -40,6 +40,11 @@ body {
 	-webkit-transition: background-color 1000ms;
 }
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    max-height: 400px;
+}
+
 .header {
 	color: red;
 	text-align: center
@@ -51,6 +56,13 @@ body {
 
 .main-content {
 	margin: 10px;
+}
+
+.featured-product {
+	border-width: 1px;
+	border-style: solid;
+	border-color: grey;
+	border-radius: 15px;
 }
 
 /*-------foooter-------------*/
