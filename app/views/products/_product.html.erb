@@ -1,0 +1,25 @@
+<div class="row product-table">
+  <div class="col-md-2 product-cell">
+    <%= product.name %>
+  </div>
+  <div class="col-md-3 product-cell">
+    <%= product.description %>
+  </div>
+  <div class="col-md-1 product-cell">
+    <%= product.colour %>
+  </div>
+  <div class="col-md-4 wrap-text product-cell">
+    <%= product.image_url %>
+  </div>
+  <div class="col-md-2">
+    <div class="col-md-3">
+      <%= link_to 'Show', product, :class => "btn btn-link" %>
+    </div>
+    <div class="col-md-3">
+      <%= link_to 'Edit', edit_product_path(product), :class => "btn btn-link" %>
+    </div>
+    <div class="col-md-3">
+      <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-link" %>
+    </div>
+  </div>
+</div>
